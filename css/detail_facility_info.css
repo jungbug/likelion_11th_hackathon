@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#super-div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+
+.top-navbar {
+  width: 100%;
+  height: 7%;
+  background-color: #f3f6fa;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10%;
+  box-sizing: border-box;
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+  z-index: 100;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#login {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #3c64b1;
+}
+
+#top-navbar-MyPageBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  background-color: #3c64b1;
+  margin: 10px;
+  padding: 5px;
+}
+
+#top-navbar-middle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#top-navbar-middle > div {
+  margin: 10%;
+}
+
+#middle-div {
+  width: 100%;
+  height: 30%;
+  background-color: #f3f6fa;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  box-sizing: border-box;
+  text-align: center;
+  /* position: fixed; */
+  top: 7%;
+  left: 0;
+  z-index: 100;
+}
+
+#left-arrow button {
+  margin-left: 200px;
+  border: none;
+  outline: none;
+}
+#star_ button {
+  margin-right: 200px;
+  border: none;
+  outline: none;
+}
+
+.assessment_master {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.one_write {
+  margin: 0 auto;
+}
+
+.one_assessment {
+  width: 570px;
+  outline: none;
+  border: none;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  height: 85px;
+  resize: none;
+  padding: 12px;
+}
+
+.container {
+  width: 572px;
+  margin: 0 auto;
+}
+
+.container__image {
+  margin-right: 23px;
+}
+
+.sub-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 9px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button-container button {
+  border: none;
+  border-radius: 15px;
+  background-color: #d9d9d9;
+  padding: 13px 28px;
+  margin-right: 11px;
+  cursor: pointer;
+  outline: none;
+}
+
+.container__paragraph h3 {
+  margin-bottom: 12px;
+}
+
+.button-container button:last-of-type {
+  margin-right: 0;
+}
+
+.textarea-container > textarea {
+  width: 100%;
+  outline: none;
+  border: none;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  height: 85px;
+  resize: none;
+  padding: 12px;
+}
+.yes_or_no {
+  display: flex;
+  justify-content: center;
+}
+
+.yes_or_no button {
+  margin: 0 5px;
+  display: inline-flex;
+  border: none;
+  border-radius: 15px;
+  padding: 13px 28px;
+  cursor: pointer;
+  outline: none;
+}
+
+.yes_or_no .no button {
+  background-color: #f1f1f1;
+}
+
+.yes_or_no .yes button {
+  background-color: #eaf0ff;
+}
