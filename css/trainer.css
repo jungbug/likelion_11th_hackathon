@@ -100,6 +100,7 @@
   background-color: white;
   display: flex;
   align-items: center;
+  margin: 5px;
 }
 
 .menu li button span {
@@ -114,7 +115,7 @@
   grid-template-columns: repeat(2, 1fr);
   justify-content: center; /* 요소들을 가로 방향으로 가운데 정렬합니다 */
   grid-gap: 10px; /* 필요한 경우 요소들 사이의 간격을 조정할 수 있습니다 */
-  margin: 35px, 0px;
+  margin: 15px, 0px;
 }
 .first_trainer,
 .second_trainer,
@@ -125,6 +126,7 @@
   align-items: center; /* 요소들을 가로 방향으로 가운데 정렬합니다 */
   font-size: 15px;
   font-weight: bold;
+  margin: 10px;
 }
 
 .first_trainer span,
@@ -155,4 +157,6 @@
   height: 10px;
   width: 10px;
   border: none;
+  cursor: pointer;
+  outline: none;
 }
