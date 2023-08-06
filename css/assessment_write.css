@@ -50,15 +50,16 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-right: 92px;
 }
 
 #top-navbar-middle > div {
-  margin: 10%;
+  margin: 20%;
 }
 
 #middle-div {
   width: 100%;
-  height: 30%;
+  height: 40%;
   background-color: #f3f6fa;
   display: flex;
   justify-content: space-between;
@@ -73,24 +74,58 @@
 }
 
 #left-arrow button {
-  margin-left: 200px;
+  margin-left: 330px;
   border: none;
   outline: none;
+  margin-bottom: 10px;
 }
 #star_ button {
-  margin-right: 200px;
+  margin-right: 330px;
   border: none;
   outline: none;
+  margin-bottom: 10px;
 }
 
+.menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  flex-direction: column;
+  align-items: flex-start;
+  position: fixed;
+}
+.menu li button {
+  border: none;
+  cursor: pointer;
+  outline: none;
+  height: 44px;
+  width: 150px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+}
+.menu li button span {
+  display: inline-block;
+  text-align: center;
+  width: 70px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.menu li button img {
+  margin-right: 10px;
+  margin-left: 30px;
+}
 .assessment_master {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.one_write {
-  margin: 0 auto;
+.one_write > span {
+  margin: 15px 0;
 }
 
 .one_assessment {
@@ -107,6 +142,11 @@
 .container {
   width: 572px;
   margin: 0 auto;
+  margin-bottom: 20px; /* 원하는 간격으로 설정 */
+}
+
+.container:last-of-type {
+  margin-bottom: 0;
 }
 
 .container__image {
@@ -159,13 +199,14 @@
 }
 
 .yes_or_no button {
-  margin: 0 5px;
+  margin: 0 5px 30px;
   display: inline-flex;
   border: none;
   border-radius: 15px;
   padding: 13px 28px;
   cursor: pointer;
   outline: none;
+  font-weight: bold;
 }
 
 .yes_or_no .no button {
@@ -174,32 +215,4 @@
 
 .yes_or_no .yes button {
   background-color: #eaf0ff;
-}
-
-.menu {
-  display: flex;
-  align-items: center;
-  list-style: none;
-  flex-direction: column;
-  align-items: flex-start;
-  position: fixed;
-  margin: 5px;
-}
-.menu li button {
-  border: none;
-  cursor: pointer;
-  outline: none;
-  height: 44px;
-  width: 124px;
-  background-color: white;
-  display: flex;
-  align-items: center;
-}
-
-.menu li button span {
-  display: inline-block;
-  text-align: center;
-  width: 70px;
-  font-size: 16px;
-  font-weight: bold;
 }
