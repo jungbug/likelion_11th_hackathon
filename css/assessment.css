@@ -121,6 +121,12 @@
     margin-right: auto;
 }
 
+button#write {
+    border: 1px solid #858383;
+    border-radius: 5px;
+    margin-top : 10px
+}
+
 ul {
     display: flex;
     flex-direction: column;
