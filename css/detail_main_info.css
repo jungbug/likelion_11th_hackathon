@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#super-div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+
+.top-navbar {
+  width: 100%;
+  height: 7%;
+  background-color: #f3f6fa;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10%;
+  box-sizing: border-box;
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+  z-index: 100;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#login {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #3c64b1;
+}
+
+#top-navbar-MyPageBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  background-color: #3c64b1;
+  margin: 10px;
+  padding: 5px;
+}
+
+#top-navbar-middle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#top-navbar-middle > div {
+  margin: 10%;
+}
+
+#middle-div {
+  width: 100%;
+  height: 30%;
+  background-color: #f3f6fa;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  box-sizing: border-box;
+  text-align: center;
+  /* position: fixed; */
+  top: 7%;
+  left: 0;
+  z-index: 100;
+}
+
+#left-arrow button {
+  margin-left: 200px;
+  border: none;
+  outline: none;
+}
+#star_ button {
+  margin-right: 200px;
+  border: none;
+  outline: none;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  flex-direction: column;
+  align-items: flex-start;
+  position: fixed;
+}
+.menu li button {
+  border: none;
+  cursor: pointer;
+  outline: none;
+  height: 44px;
+  width: 124px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  margin: 5px;
+}
+
+.menu li button span {
+  display: inline-block;
+  text-align: center;
+  width: 70px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.main_page {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.photo_map_container {
+  display: flex; /* 요소들을 가로로 배치 */
+  justify-content: space-between; /* 요소들을 가로 방향으로 공간을 분배하여 배치 */
+  align-items: center; /* 요소들을 수직 가운데 정렬 */
+  flex-wrap: wrap; /* 요소들이 너비를 벗어나면 다음 줄로 넘어가도록 설정 */
+  margin: 0 auto; /* 가운데 정렬을 위한 마진 설정 */
+  max-width: 900px;
+  margin-top: 15px;
+}
+
+.photo,
+.location {
+  flex: 1;
+  max-width: 400px;
+  padding: 10px;
+}
