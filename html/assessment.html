@@ -4,30 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel = "stylesheet" href= "../css/assessment.css"/>
 </head>
 <body>
     <header>
-        <div class="main">
-            <!-- logo -->
-            <div class="logo-div">
-                <img src="img/logo.png" alt="logo">
-            </div>
-
-            <div id="top-navbar-middle">
-                <div>Features</div>
-                <div>Pricing</div>
-                <div>Contact</div>
-            </div>
-
-            <div id="login">
-                <span>로그아웃</span>
-                <span id="top-navbar-MyPageBox">My Page</span>
+        <div id="super-div">
+            <div class="top-navbar">
+                <!-- logo -->
+                <div class="logo-div">
+                    <img src="img/logo.png" alt="logo" />
+                </div>
+                <div id="top-navbar-middle">
+                    <div>Features</div>
+                    <div>Pricing</div>
+                    <div>Contact</div>
+                </div>
+                <div id="login">
+                    <span>로그아웃</span>
+                    <span id="top-navbar-MyPageBox">My Page</span>
+                </div>
             </div>
 
             <div id="middle-div">
                 <div id="left-arrow">
-                    <button>
-                        <img src="../img/assessment2/Arrow 1.svg" alt="arrow" />
+                    <button class="arrow_button">
+                    <img src="../img/assessment2/Arrow 1.svg" alt="arrow" />
                     </button>
                 </div>
                 <div id="middle-text">
@@ -35,10 +36,11 @@
                 </div>
                 <div id="star_">
                     <button>
-                        <img src="../img/assessment2/star1.svg" alt="star1" />
+                    <img src="../img/assessment2/star1.svg" alt="star_" />
                     </button>
                 </div>
                 </div>
+            </div>
         </div>
     </header>
 
@@ -70,7 +72,7 @@
             </li>
         </ul>
 
-        <div>
+        <div class="assessment_strapoint_div">
             <span id ="assessment_starpoint"></span>
             <img src="../img/assessment2/star_stroke.svg" alt="star">
             <img src="../img/assessment2/star_stroke.svg" alt="star">
@@ -80,33 +82,55 @@
         </div>
 
 
-        <ul>
-            <li>
-                <img src="../img/assessment2/money.svg" alt = "money">
-                <div class="money_good">만족</div>
-                <div class="money_soso">보통</div>
-                <div class="money_bad">불만족</div>
-            </li>
-            <li>
-                <img src="../img/assessment2/fitness_equipment.svg" alt="fitness_equipment">
-                <div class="fitness_equipment_good">만족</div>
-                <div class="fitness_equipment_soso">보통</div>
-                <div class="fitness_equipment_bad">불만족</div>
-            </li>
-            <li>
-                <img src="../img/assessment2/facility_environment.svg" alt="facility_environment">
-                <div class="facility_environment_good">만족</div>
-                <div class="facility_environmentt_soso">보통</div>
-                <div class="facility_environment_bad">불만족</div>
+        <ul class ="assessment_three">
+
+            <li id="money">
+                <img src="../img/assessment2/money.svg" alt="money">
+                <div class="rating_labels">
+                    <div class="money_good">만족</div>
+                    <div class="money_soso">보통</div>
+                    <div class="money_bad">불만족</div>
+                </div>
             </li>
 
+            <li id="fitness_equipment" class="rating_item">
+                <img src="../img/assessment2/fitness_equipment.svg" alt="fitness equipment">
+                <div class="rating_labels">
+                    <div class="equipment_good">만족</div>
+                    <div class="equipment_soso">보통</div>
+                    <div class="equipment_bad">불만족</div>
+                </div>
+            </li>
+
+            </li>
+            <li id="facility" class="rating_item">
+                <img src="../img/assessment2/facility_environment.svg" alt="facility">
+                <div class="rating_labels">
+                <div class="facility_good">만족</div>
+                <div class="facility_soso">보통</div>
+                <div class="facility_bad">불만족</div>
+            </div>
+        </li>
         </ul>
 
-        <div>
-            <img src="../img/assessment2/recommend.svg" alt="recommend">
-            <img src="../img/assessment2/jonnabig image.svg" alt="profile">
+
+        <div class="profile_container"> 
+            <div id="profile">
+                <div>
+                    <img src="../img/assessment2/jonnabig image.svg" alt="profile">
+                    <button>
+                        <img src="../img/assessment2/recommend.svg" alt="recommend">
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+        <div id ="more">
             <img src="../img/assessment2/more.svg" alt="more">
         </div>
+
+        
 
 
     </main>
