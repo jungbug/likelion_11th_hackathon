@@ -1,24 +1,26 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel = "stylesheet" href= "../css/assessment.css"/>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="../css/assessment.css" />
+    </head>
+    <body>
     <header>
         <div id="super-div">
             <div class="top-navbar">
                 <!-- logo -->
                 <div class="logo-div">
-                    <img src="img/logo.png" alt="logo" />
+                    <img src="../img/assessment2/logo.svg" alt="logo" />
                 </div>
+            
                 <div id="top-navbar-middle">
                     <div>Features</div>
                     <div>Pricing</div>
                     <div>Contact</div>
                 </div>
+
                 <div id="login">
                     <span>로그아웃</span>
                     <span id="top-navbar-MyPageBox">My Page</span>
@@ -28,42 +30,33 @@
             <div id="middle-div">
                 <div id="left-arrow">
                     <button class="arrow_button">
-                    <img src="../img/assessment2/Arrow 1.svg" alt="arrow" />
+                        <img src="../img/assessment2/Arrow 1.svg" alt="arrow" />
                     </button>
                 </div>
-                <div id="middle-text">
-                    <h1>대전 드림바디 휘트니스</h1>
-                </div>
-                <div id="star_">
-                    <button>
-                    <img src="../img/assessment2/star1.svg" alt="star_" />
-                    </button>
-                </div>
-                </div>
+            <h1>대전 드림바디 휘트니스</h1>
             </div>
         </div>
     </header>
 
     <main>
-        <ul class = "menu">
+        <ul class="menu">
             <li>
-                <button id ="outline">
-                    <img src="/img/assessment2/outline.svg" alt="outline">
+                <button id="outline">
+                    <img src="../img/assessment2/outline.svg" alt="outline" />
                     <span>개요</span>
                 </button>
             </li>
             <li>
                 <button id="facility">
-                    <img src="/img/assessment2/facility.svg" alt="facility">
+                    <img src="../img/assessment2/facility.svg" alt="facility" />
                     <span>시설평</span>
                 </button>
             </li>
             <li>
                 <button id="trainer">
-                    <img src="../img/assessment2/trainer.svg" alt="trainer">
+                    <img src="../img/assessment2/trainer.svg" alt="trainer" />
                     <span>트레이너</span>
                 </button>
-            </li>
             <li>
                 <button id="write">
                     <img src="../img/assessment2/write.svg" alt="write">
@@ -106,32 +99,57 @@
             <li id="facility" class="rating_item">
                 <img src="../img/assessment2/facility_environment.svg" alt="facility">
                 <div class="rating_labels">
-                <div class="facility_good">만족</div>
-                <div class="facility_soso">보통</div>
-                <div class="facility_bad">불만족</div>
-            </div>
-        </li>
+                    <div class="facility_good">만족</div>
+                    <div class="facility_soso">보통</div>
+                    <div class="facility_bad">불만족</div>
+                </div>
+            </li>
+
         </ul>
 
 
-        <div class="profile_container"> 
+        <div class = "review">
             <div id="profile">
-                <div>
-                    <img src="../img/assessment2/jonnabig image.svg" alt="profile">
-                    <button>
-                        <img src="../img/assessment2/recommend.svg" alt="recommend">
-                    </button>
-                </div>
+                <img src="../img/assessment2/profile.svg" alt="profile">
             </div>
 
+            <div id="starpoint_review">
+                <img src="../img/assessment2/star_stroke_small.svg" alt="starpoint_review">
+                <img src="../img/assessment2/star_stroke_small.svg" alt="starpoint_review">
+                <img src="../img/assessment2/star_stroke_small.svg" alt="starpoint_review">
+                <img src="../img/assessment2/star_stroke_small.svg" alt="starpoint_review">
+                <img src="../img/assessment2/star_stroke_small.svg" alt="starpoint_review">
+            </div>
+
+            <div class="headline">
+                "한줄평"
+            </div>
+
+            <div class="details">
+                <div class="detail">
+                    <strong>이용료</strong>
+                    <span>1달 기준 12만원</span>
+                </div>
+
+                <div class="detail">
+                    <strong>기구종류다양성</strong>
+                    <span>사이클이 없어서 종류가 다양하진 않아요.</span>                    
+                </div>
+
+                <div class="detail">
+                    <strong>센터환경</strong>
+                    <span>에어컨을 세게 틀어주지 않아서 불만이었어요.</span>                    
+                </div>
+
+                <div class="detail">
+                    <strong>기타</strong>
+                    <span>이벤트 아니면 다신가지않을듯합니다.</span>                    
+                </div>
+
+            </div>
+
+
         </div>
-
-        <div id ="more">
-            <img src="../img/assessment2/more.svg" alt="more">
-        </div>
-
-        
-
 
     </main>
 </body>

@@ -11,6 +11,8 @@
     flex-direction: column;
     box-sizing: border-box;
     background-color: #ffffff;
+    position: relative;
+    align-items: center;
 }
 
 .top-navbar {
@@ -50,16 +52,15 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-right: 92px;
 }
 
 #top-navbar-middle > div {
-    margin: 20%;
+    margin: 10%;
 }
 
 #middle-div {
     width: 100%;
-    height: 40%;
+    height: 30%;
     background-color: #f3f6fa;
     display: flex;
     justify-content: space-between;
@@ -67,35 +68,23 @@
     flex-direction: row;
     box-sizing: border-box;
     text-align: center;
+    /* position: fixed; */
     top: 7%;
+    left: 0;
     z-index: 100;
 }
 
 #left-arrow button {
+    margin-left: 200px;
     border: none;
     outline: none;
-    margin-bottom: 2%;
-    display: flex;
-    position: absolute;
-    left: 350px;
-
 }
 
-#left-arrow button
-.arrow_button {
+#star_ button {
+    margin-right: 200px;
     border: none;
     outline: none;
-    background-color: transparent;
-    cursor: pointer;
-    margin-right: 20px;
 }
-
-#middle-div h1 {
-    flex: 1;
-    text-align: center;
-    margin-bottom: 25px;
-}
-
 
 
 .menu {
@@ -105,6 +94,7 @@
     flex-direction: column;
     align-items: flex-start;
     position: fixed;
+    left: 0;
 }
 
 .menu li button {
@@ -112,11 +102,10 @@
     cursor: pointer;
     outline: none;
     height: 44px;
-    width: 150px;
+    width: 124px;
     background-color: white;
     display: flex;
     align-items: center;
-    justify-content: center;
     margin: 5px;
 }
 
@@ -128,15 +117,10 @@
     font-weight: bold;
 }
 
-.menu li button img {
-    margin-right: 10px;
-    margin-left: 30px;
+.menu li button {
+    margin: 5px;
+    margin-right: auto;
 }
-
-/* .menu li button img {
-  margin-right: 10px;
-  margin-left: 30px;
-} */
 
 button#write {
     border: 1px solid #858383;
@@ -149,77 +133,3 @@ ul {
     flex-direction: column;
     gap: 10px;
 }
-
-.assessment_strapoint_div,
-.assessment_three,
-#more {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    margin-top: 20px;
-}
-
-.assessment_strapoint_div {
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-.assessment_three {
-    list-style-type: none;
-    margin-top: 20px;
-    margin-bottom: 80px;
-}
-
-#money {
-    display: flex;
-    flex-direction: row;
-}
-
-.rating_item {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-}
-
-.rating_labels {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-left: 10px;
-    height: 100%;
-}
-
-.profile_container {
-    position: relative;
-    margin-top: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    margin: 0 auto;
-}
-
-.profile_container img {
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-#profile button {
-    position: absolute;
-    top: -50px;
-    left: 900px;
-}
-
-#recommend {
-    position: absolute;
-    top: 0;
-    right: 0;
-}
-
-#recommend button {
-    border: none;
-    box-shadow: none;
-    background-color: transparent;
-}
-
