@@ -2,18 +2,18 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-#super-div {
+  }
+  
+  #super-div {
     width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
     background-color: #ffffff;
-}
-
-.top-navbar {
+  }
+  
+  .top-navbar {
     width: 100%;
     height: 7%;
     background-color: #f3f6fa;
@@ -27,16 +27,16 @@
     left: 0;
     z-index: 100;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-#login {
+  }
+  
+  #login {
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: #3c64b1;
-}
-
-#top-navbar-MyPageBox {
+  }
+  
+  #top-navbar-MyPageBox {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -44,20 +44,20 @@
     background-color: #3c64b1;
     margin: 10px;
     padding: 5px;
-}
-
-#top-navbar-middle {
+  }
+  
+  #top-navbar-middle {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-right: 92px;
-}
-
-#top-navbar-middle > div {
+  }
+  
+  #top-navbar-middle > div {
     margin: 20%;
-}
-
-#middle-div {
+  }
+  
+  #middle-div {
     width: 100%;
     height: 40%;
     background-color: #f3f6fa;
@@ -69,39 +69,38 @@
     text-align: center;
     top: 7%;
     z-index: 100;
-}
-
-#left-arrow {
+  }
+  
+  #left-arrow {
     position: relative;
     left: 350px;
     margin-bottom: 2%;
-}
-
-.arrow_button {
+  }
+  
+  .arrow_button {
     border: none;
     outline: none;
     background-color: transparent;
     cursor: pointer;
     margin-right: 20px;
-}
-
-#middle-div h1 {
+  }
+  
+  #middle-div h1 {
     flex: 1;
     text-align: center;
     margin-bottom: 25px;
-}
-
-
-.menu {
+  }
+  
+  .menu {
     display: flex;
     align-items: center;
     list-style: none;
     flex-direction: column;
     align-items: flex-start;
     position: fixed;
-}
-
-.menu li button {
+  }
+  
+  .menu li button {
     border: none;
     cursor: pointer;
     outline: none;
@@ -112,87 +111,122 @@
     align-items: center;
     justify-content: center;
     margin: 5px;
-}
-
-.menu li button span {
+  }
+  
+  .menu li button span {
     display: inline-block;
     text-align: center;
     width: 70px;
     font-size: 16px;
     font-weight: bold;
-}
-
-.menu li button img {
+  }
+  
+  .menu li button img {
     margin-right: 10px;
     margin-left: 30px;
-}
-
-
-button#write {
+  }
+  
+  button#write {
     border: 1px solid #858383;
     border-radius: 5px;
-    margin-top : 10px
-}
-
-ul {
+    margin-top: 10px;
+  }
+  
+  ul {
     display: flex;
     flex-direction: column;
     gap: 10px;
-}
-
-.assessment_strapoint_div,
-.assessment_three,
-#more {
+  }
+  
+  .assessment_strapoint_div,
+  .assessment_three,
+  #more {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
     margin-top: 20px;
-}
-
-#assessment_starpoint {
+  }
+  
+  #assessment_starpoint {
     font-size: 58px;
-}
-
-.assessment_strapoint_div {
+  }
+  
+  .assessment_strapoint_div {
     padding-top: 20px;
     padding-bottom: 20px;
-}
-
-.assessment_three {
+  }
+  
+  .assessment_three {
     list-style-type: none;
     margin-top: 20px;
     margin-bottom: 80px;
-}
-
-#money {
+  }
+  
+  #money {
     display: flex;
     flex-direction: row;
-}
-
-.rating_item {
+  }
+  
+  .rating_item {
     display: flex;
     align-items: center;
     flex-direction: row;
-}
-
-.rating_labels {
+  }
+  
+  .rating_labels {
     display: flex;
     align-items: center;
     flex-direction: column;
     margin-left: 10px;
     height: 100%;
-}
-
-
-
-.review {
+  }
+  
+  .review {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    align-items: center; /* 가로 가운데 정렬 */
+    justify-content: center; /* 세로 가운데 정렬 */
     width: 100%;
     position: relative;
     top: -70px; /* 바로 아래 위치를 조정하려면 이 값을 조정하면 됩니다. */
-}
-
+    margin-top: 150px;
+  }
+  
+  .details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 30vh; /* Adjust as needed */
+  }
+  
+  .detail {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  #profile {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* 좌측 정렬 */
+    gap: 10px; /* 이미지 사이의 간격 */
+  }
+  
+  #profile img {
+    vertical-align: middle; /* 이미지 수직 가운데 정렬 */
+  }
+  
+  .more_btn {
+    width: 10%;
+    outline: none;
+    border: none;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    height: 50px;
+    padding: 12px;
+    margin-top: 20px;
+    padding: 10px;
+    cursor: pointer;
+  }
