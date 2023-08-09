@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#super-div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    position: relative;
+    align-items: center;
+}
+
+.top-navbar {
+    width: 100%;
+    height: 7%;
+    background-color: #f3f6fa;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+    box-sizing: border-box;
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    z-index: 100;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#login {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #3c64b1;
+}
+
+#top-navbar-MyPageBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: #3c64b1;
+    margin: 10px;
+    padding: 5px;
+}
+
+#top-navbar-middle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#top-navbar-middle > div {
+    margin: 10%;
+}
+
+#middle-div {
+    width: 100%;
+    height: 30%;
+    background-color: #f3f6fa;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    box-sizing: border-box;
+    text-align: center;
+    /* position: fixed; */
+    top: 7%;
+    left: 0;
+    z-index: 100;
+}
+
+#left-arrow button {
+    margin-left: 200px;
+    border: none;
+    outline: none;
+}
+
+#star_ button {
+    margin-right: 200px;
+    border: none;
+    outline: none;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    flex-direction: column;
+    align-items: flex-start;
+    position: fixed;
+    left: 0;
+}
+
+.menu li button {
+    border: none;
+    cursor: pointer;
+    outline: none;
+    height: 44px;
+    width: 124px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+
+.menu li button span {
+    display: inline-block;
+    text-align: center;
+    width: 70px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.menu li button {
+    margin: 5px;
+    margin-right: auto;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.assessment_strapoint_div,
+.assessment_three,
+#more {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.assessment_strapoint_div {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.assessment_three {
+    list-style-type: none;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+#money {
+    display: flex;
+    flex-direction: row;
+}
+
+.rating_item {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.rating_labels {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 10px;
+    height: 100%;
+}
+
+.profile_container {
+    position: relative;
+    margin-top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0 auto;
+}
+
+.profile_container img {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#profile button {
+    position: absolute;
+    top: -50px;
+    left: 900px;
+}
+
+#recommend {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#recommend button {
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+}
+
