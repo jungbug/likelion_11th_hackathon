@@ -223,3 +223,39 @@
 .yes_or_no .yes button {
   background-color: #eaf0ff;
 }
+
+.star_assesment{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: end;
+}
+
+.star {
+  position: relative;
+  font-size: 50px;
+  color: #ddd;
+}
+
+.star input {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.star span {
+  width: 0;
+  position: absolute; 
+  left: 0;
+  color: yellow;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.active{
+  /* color: yellow; */
+  background-color: gray !important;
+}
