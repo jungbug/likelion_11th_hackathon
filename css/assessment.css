@@ -15,6 +15,17 @@
     align-items: center;
 }
 
+#super-div1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
 .top-navbar {
     width: 100%;
     height: 7%;
@@ -200,3 +211,72 @@ ul {
     background-color: transparent;
 }
 
+.user-templete {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+  }
+  
+  .user-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .text1{
+    width: 400px;
+    height: 50px;
+    background-color: lightgray;
+    text-align: center;
+    line-height: 50px;
+  }
+  
+  .user-profile{
+    width: 40px;
+    margin-right: 10px;
+  }
+  
+  .price{
+    display: flex;
+    margin: 10px;
+  }
+  
+  .price > div{
+    font-weight: bold;
+    margin-right: 15px;
+  }
+  
+  .type{
+    display: flex;
+    margin: 10px;
+  }
+  
+  .type > div{
+    font-weight: bold;
+    margin-right: 15px;
+  }
+  
+  .environment{
+    display: flex;
+    margin: 10px;
+  }
+  
+  .environment > div{
+    font-weight: bold;
+    margin-right: 15px;
+  }
+  
+  .guitar{
+    display: flex;
+    margin: 10px;
+  }
+  
+  .guitar > div{
+    font-weight: bold;
+    margin-right: 15px;
+  }
