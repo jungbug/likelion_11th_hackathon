@@ -12,7 +12,6 @@
   <header>
     <div id="super-div">
       <div class="top-navbar">
-        <!-- logo -->
         <div class="logo-div">
           <img src="../img/assessment/logo.svg" alt="logo" />
         </div>
@@ -70,6 +69,7 @@
           <div id="star-rating">0/5</div>
         </div>    
       </div>
+
       <div class="user-templete">
         <div class="user-top">
           <img src="../img/assessment_list/profile.svg" alt="유저사진" class="user-profile">
@@ -92,24 +92,50 @@
             <div>센터환경</div>
             <span>에어컨을 세게 틀어주지 않아서 불만이었어요.</span>
           </div>
-          <div class="guitar">
+          <!-- <div class="guitar">
             <div>기타</div>
             <span>이벤트 아니면 다시가진 않을 듯합니다.</span>
-          </div>
+          </div> -->
         </div>
       </div>
-  
-  
-      <div class="yes_or_no">
-        <div class="no">
-          <button>취소</button>
+
+      <template id="user-info">
+        <div class="user-tamplete">
+          <div class="user-top">
+            <img src="../img/assessment_list/profile.svg" alt="유저사진" class="user-profile">
+            <div class="user-topbar">
+              <div class="user-star">★★★★★</div>
+              <div class="user-period">3년 5개월 사용자</div>
+            </div>
+          </div>
+          <div class="text1"></div>
+          <div class="user-container">
+            <div class="price">
+              <div>이용료</div>
+              <span></span>
+            </div>
+            <div class="type">
+              <div>기구종류</div>
+              <span></span>
+            </div>
+            <div class="environment">
+              <div>센터환경</div>
+              <span></span>
+            </div>
+          </div>
         </div>
-        <div class="yes">
-          <button>확인</button>
-        </div>
+      </template>    
+    </div>
+    <div class="yes_or_no">
+      <div class="no">
+        <button>취소</button>
+      </div>
+      <div class="yes">
+        <button>확인</button>
       </div>
     </div>
     
+    <script src="../js/assessment_list.js"></script>
   </main>
 </body>
 
