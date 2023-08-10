@@ -13,6 +13,16 @@
   background-color: #ffffff;
 }
 
+#super-div1{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+}
+
 .top-navbar {
   width: 100%;
   height: 7%;
@@ -125,14 +135,72 @@
   margin-right: 10px;
   margin-left: 30px;
 }
-.main {
+.assessment_master {
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
-  padding: 20px;
+  align-items: center;
+}
+.one_write > span {
+  margin: 15px 0;
 }
 
-.main_page > textarea {
+.one_assessment {
+  width: 570px;
+  outline: none;
+  border: none;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  height: 85px;
+  resize: none;
+  padding: 12px;
+}
+
+.container {
+  width: 572px;
+  margin: 0 auto;
+  margin-bottom: 20px; /* 원하는 간격으로 설정 */
+}
+
+.container:last-of-type {
+  margin-bottom: 0;
+}
+
+.container__image {
+  margin-right: 23px;
+}
+
+.sub-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 9px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button-container button {
+  border: none;
+  border-radius: 15px;
+  background-color: #d9d9d9;
+  padding: 13px 28px;
+  margin-right: 11px;
+  cursor: pointer;
+  outline: none;
+}
+
+.container__paragraph h3 {
+  margin-bottom: 12px;
+}
+
+.button-container button:last-of-type {
+  margin-right: 0;
+}
+
+.textarea-container > textarea {
   width: 100%;
   outline: none;
   border: none;
@@ -141,10 +209,7 @@
   height: 85px;
   resize: none;
   padding: 12px;
-  margin-top: 20px;
-  padding: 10px;
 }
-
 .yes_or_no {
   display: flex;
   justify-content: center;
@@ -168,30 +233,6 @@
 .yes_or_no .yes button {
   background-color: #eaf0ff;
 }
-
-.star.assesment {
-  margin-top: 10px;
-}
-
-.class_period,
-.cost {
-  margin-top: 15px;
-}
-.class_period h3 {
-  margin-bottom: 15px;
-}
-
-input {
-  border-style: none;
-  background-color: #d9d9d9;
-  width: 100px;
-  height: 25px;
-}
-
-.cost > h3 {
-  margin-bottom: 15px;
-}
-
 
 .star_assesment{
   display: flex;
@@ -224,14 +265,78 @@ input {
   pointer-events: none;
 }
 
-.click_button{
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  background-color: white;
-  border: gray 1px solid;
+.active{
+  /* color: yellow; */
+  background-color: gray !important;
 }
 
-.active_button{
+.user-templete {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+
+.user-top{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.text1{
+  width: 400px;
+  padding: 10px;
   background-color: lightgray;
+  text-align: center;
+  line-height: 50px;
+  margin-bottom: 20px;
+}
+
+.user-profile{
+  width: 40px;
+  margin-right: 10px;
+}
+
+.price{
+  display: flex;
+  margin: 10px;
+}
+
+.price > div{
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+.type{
+  display: flex;
+  margin: 10px;
+}
+
+.type > div{
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+.environment{
+  display: flex;
+  margin: 10px;
+}
+
+.environment > div{
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+.guitar{
+  display: flex;
+  margin: 10px;
+}
+
+.guitar > div{
+  font-weight: bold;
+  margin-right: 15px;
 }

@@ -61,45 +61,37 @@
     <main class="main">
       <div class="main_page">
         <h2>푸바오 트레이너</h2>
-        <div class="star assesment">
-          <img src="../img/trainer_assessment/star.svg" alt="star_empty" />
-          <img src="../img/trainer_assessment/star.svg" alt="star_empty" />
-          <img src="../img/trainer_assessment/star.svg" alt="star_empty" />
-          <img src="../img/trainer_assessment/star.svg" alt="star_empty" />
-          <img src="../img/trainer_assessment/star.svg" alt="star_empty" />
-          <span>0/5</span>
+        <div class="star_assesment">
+          <span class="star">
+            ★★★★★
+            <span>★★★★★</span>
+            <input type="range" oninput="drawStar(this)" value="1" step="1" min="0" max="10">
+          </span>
+          <div id="star-rating">0/5</div>
         </div>
         <div class="class_period">
           <h3>수강기간</h3>
-          <img
-            class="click_button"
-            src="../img/trainer_assessment/click_button.svg"
-            alt="click_button"
-          />
+          <button class="click_button"></button>
           <span>기간</span>
-          <input />
+          <input type="number" class="middle-input">
           <span>년</span>
-          <input />
-          <span>개월 수강생</span>
+          <!-- <input />
+          <span>개월 수강생</span> -->
           <br />
           <div class="number">
-            <img
-              class="click_button"
-              src="../img/trainer_assessment/click_button.svg"
-              alt="click_button"
-            />
+            <button class="click_button"></button>
             <span>횟수</span>
-            <input />
+            <input type="number" class="middle-input">
             <span>회</span>
           </div>
         </div>
         <div class="cost">
           <h3>비용</h3>
           <span>1회 기준</span>
-          <input />
+          <input type="number" class="cost-input">
           <span>원</span>
         </div>
-        <textarea class="review_box"></textarea>
+        <textarea class="review_box" id="bottom-textarea"></textarea>
       </div>
     </main>
     <div class="yes_or_no">
@@ -110,5 +102,7 @@
         <button>확인</button>
       </div>
     </div>
+    
+    <script src="../js/trainer_assessment.js"></script>
   </body>
 </html>

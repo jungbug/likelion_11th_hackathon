@@ -50,6 +50,8 @@ buttonContainer.forEach((element) => {
   })
 })
 
+
+
 button.forEach((element) => {
   element.addEventListener(`click`, () => {
     element.classList.add(`active`)
@@ -82,7 +84,7 @@ button.forEach((element) => {
 })
 
 async function getData(assessment1) {
-  const res = await fetch('http://localhost:8080/test', {
+  const res = await fetch('http://localhost:8080/gym', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
