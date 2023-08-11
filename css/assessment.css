@@ -280,3 +280,18 @@ ul {
     font-weight: bold;
     margin-right: 15px;
   }
+
+  .more_btn {
+    width: 10%;
+    outline: none;
+    border: none;
+    background-color: #F4F1F1;
+    border-radius: 10px;
+    height: 50px;
+    padding: 12px;
+    margin-top: 20px;
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
