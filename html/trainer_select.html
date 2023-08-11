@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>trainer_select</title>
+    <link rel="stylesheet" href="../css/trainer_select.css" />
+  </head>
+  <body>
+    <header>
+      <div id="super-div">
+        <div class="top-navbar">
+          <!-- logo -->
+          <div class="logo-div">
+            <img src="../img/trainer_assessment/logo.svg" alt="logo" />
+          </div>
+          <div id="top-navbar-middle">
+            <div>Features</div>
+            <div>Pricing</div>
+            <div>Contact</div>
+          </div>
+          <div id="login">
+            <span>로그아웃</span>
+            <span id="top-navbar-MyPageBox">My Page</span>
+          </div>
+        </div>
+
+        <div id="middle-div">
+          <div id="left-arrow">
+            <button
+              class="arrow_button"
+              onClick="location.href='./searchResult.html'"
+            >
+              <img src="../img/assessment/Arrow 1.svg" alt="arrow" />
+            </button>
+          </div>
+          <h1>대전 드림바디 휘트니스</h1>
+        </div>
+      </div>
+    </header>
+
+    <div class="outline">
+      <ul class="menu">
+        <li>
+          <button
+            id="outline"
+            onClick="location.href='./detail_main_info.html'"
+          >
+            <img src="../img/assessment/outline.svg" alt="outline" />
+            <span>개요</span>
+          </button>
+        </li>
+        <li>
+          <button id="facility" onClick="location.href='./assessment.html'">
+            <img src="../img/assessment/facility.svg" alt="facility" />
+            <span>시설평</span>
+          </button>
+        </li>
+        <li>
+          <button id="trainer" onClick="location.href='./trainer.html'">
+            <img src="../img/assessment/trainer.svg" alt="trainer" />
+            <span>트레이너</span>
+          </button>
+        </li>
+      </ul>
+    </div>
+    <main>
+      <div class="trainer_introduce">
+        <h2>푸바오 트레이너</h2>
+        <br />
+        <div class="trainer_content">
+          <div class="trainer_image">
+            <img src="../img/trainer/first_trainer.svg" alt="trianer" />
+          </div>
+          <div class="trainer_description">
+            <h3>트레이너 소개</h3>
+            <span>
+              내 자식처럼 지도하고 가르칩니다! <br />
+              No pain No gain!
+            </span>
+            <br />
+            <div class="trianer_introuce_info">
+              <h3>경력 및 이력</h3>
+              <span>
+                생활체육지도사 2급<br />충남대학교 체육교육과 졸업<br />
+                충남대학교 보디빌딩 대회 2등상<br />
+                충남대학교 몸짱대회 1등
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="trainer_assessment">
+        <div class="assessment_strapoint_div">
+          <span id="assessment_starpoint"></span>
+          <img src="../img/assessment2/star_stroke.svg" alt="star" />
+          <img src="../img/assessment2/star_stroke.svg" alt="star" />
+          <img src="../img/assessment2/star_stroke.svg" alt="star" />
+          <img src="../img/assessment2/star_stroke.svg" alt="star" />
+          <img src="../img/assessment2/star_stroke.svg" alt="star" />
+        </div>
+        <!-- 여기 사용자로부터 받는 값이 4.7/5 이런식으로 떠야할 것 같은데 이거 어케 설정해야할지 모르겠어서 공란 -->
+      </div>
+      <div id="super-div1">
+        <div class="user-templete">
+          <div class="user-top">
+            <img
+              src="../img/assessment_list/profile.svg"
+              alt="유저사진"
+              class="user-profile"
+            />
+            <div class="user-topbar">
+              <div class="user-star">★★★★★</div>
+              <div class="user-period">3년 5개월 사용자</div>
+            </div>
+          </div>
+          <div class="text1">그냥 가까워서 좋음 ㅇㅇ</div>
+          <div class="user-container">
+            <div class="price">
+              <div>이용료</div>
+              <span>1달 기준 12만원</span>
+            </div>
+            <div class="type">
+              <div>기구종류</div>
+              <span>사이클이 없어서 종류가 다양하진 않아요.</span>
+            </div>
+            <div class="environment">
+              <div>센터환경</div>
+              <span>에어컨을 세게 틀어주지 않아서 불만이었어요.</span>
+            </div>
+            <div class="guitar">
+              <div>기타</div>
+              <span>이벤트 아니면 다시가진 않을 듯합니다.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="btn_container">
+      <button class="more_btn">더 보기</button>
+    </div>
+  </body>
+</html>
