@@ -339,3 +339,8 @@
   font-weight: bold;
   margin-right: 15px;
 }
+
+.menu li button:hover {
+  background-color: #eaf0ff;
+  width : 200px;
+}

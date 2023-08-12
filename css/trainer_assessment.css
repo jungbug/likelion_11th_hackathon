@@ -235,3 +235,12 @@ input {
 .active_button{
   background-color: lightgray;
 }
+
+.yes_or_no button:hover {
+  background-color: #ff9900; 
+}
+
+.menu li button:hover {
+  background-color: #eaf0ff;
+  width : 200px;
+}

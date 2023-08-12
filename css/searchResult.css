@@ -174,3 +174,7 @@
   cursor: pointer;
   outline: none;
 }
+
+.image {
+  cursor: pointer;
+}

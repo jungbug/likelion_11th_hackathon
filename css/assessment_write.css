@@ -259,3 +259,12 @@
   /* color: yellow; */
   background-color: gray !important;
 }
+
+.yes_or_no button:hover {
+  background-color: #ff9900; 
+}
+
+.menu li button:hover {
+  background-color: #eaf0ff;
+  width : 200px;
+}

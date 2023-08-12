@@ -146,3 +146,12 @@
   max-width: 400px;
   padding: 10px;
 }
+
+.menu li button:hover {
+  background-color: #eaf0ff;
+  width : 200px;
+}
+
+.photo {
+  cursor: pointer;
+}

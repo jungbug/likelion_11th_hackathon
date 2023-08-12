@@ -231,3 +231,17 @@ main {
 .trianer_introuce_info > h3 {
   margin-bottom: 10px;
 }
+
+.menu li button:hover {
+  background-color: #eaf0ff;
+  width : 200px;
+}
+
+.more_btn {
+  cursor: pointer;
+}
+
+.more_btn:hover {
+  background-color: #ff9900;
+  
+}
