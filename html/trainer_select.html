@@ -29,8 +29,7 @@
           <div id="left-arrow">
             <button
               class="arrow_button"
-              onClick="location.href='./searchResult.html'"
-            >
+              onclick="history.back(-1)">
               <img src="../img/assessment/Arrow 1.svg" alt="arrow" />
             </button>
           </div>
@@ -42,29 +41,26 @@
     <div class="outline">
       <ul class="menu">
         <li>
-          <button id="outline" onClick="location.href='./detail_main_info.html'">
-              <img src="/img/assessment2/outline.svg" alt="outline">
-              <span>개요</span>
+          <button
+            id="outline"
+            onClick="location.href='./detail_main_info.html'"
+          >
+            <img src="../img/assessment/outline.svg" alt="outline" />
+            <span>개요</span>
           </button>
-      </li>
-      <li>
+        </li>
+        <li>
           <button id="facility" onClick="location.href='./assessment.html'">
-              <img src="/img/assessment2/facility.svg" alt="facility">
-              <span>시설평</span>
+            <img src="../img/assessment/facility.svg" alt="facility" />
+            <span>시설평</span>
           </button>
-      </li>
-      <li>
+        </li>
+        <li>
           <button id="trainer" onClick="location.href='./trainer.html'">
-              <img src="../img/assessment2/trainer.svg" alt="trainer">
-              <span>트레이너</span>
+            <img src="../img/assessment/trainer.svg" alt="trainer" />
+            <span>트레이너</span>
           </button>
-      </li>
-      <li>
-          <button id="write" onClick="location.href='./trainer_assessment.html'">
-              <img src="../img/assessment2/write.svg" alt="write">
-              <span>작성하기</span>
-          </button>
-      </li>
+        </li>
       </ul>
     </div>
     <main>
@@ -76,12 +72,13 @@
             <img src="../img/trainer/first_trainer.svg" alt="trianer" />
           </div>
           <div class="trainer_description">
-            <h3>트레이너 소개</h3>
-            <span>
-              내 자식처럼 지도하고 가르칩니다! <br />
-              No pain No gain!
-            </span>
-            <br />
+            <div class="trianer_introuce_info">
+              <h3>트레이너 소개</h3>
+              <span>
+                내 자식처럼 지도하고 가르칩니다! <br />
+                No pain No gain!
+              </span>
+            </div>
             <div class="trianer_introuce_info">
               <h3>경력 및 이력</h3>
               <span>
