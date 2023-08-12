@@ -29,7 +29,9 @@
 
       <div id="middle-div">
         <div id="left-arrow">
-          <button class="arrow_button">
+          <button
+            class="arrow_button"
+            onclick="history.back(-1)">
             <img src="../img/assessment/Arrow 1.svg" alt="arrow" />
           </button>
         </div>
@@ -153,7 +155,11 @@
 
     <div class="yes_or_no">
       <div class="no">
-        <button>취소</button>
+        <button 
+          id="no"
+          onclick="history.back(-1)">
+          취소
+        </button>
       </div>
       <div class="yes">
         <button>확인</button>
