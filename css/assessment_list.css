@@ -111,6 +111,7 @@
   align-items: flex-start;
   position: fixed;
 }
+
 .menu li button {
   border: none;
   cursor: pointer;
