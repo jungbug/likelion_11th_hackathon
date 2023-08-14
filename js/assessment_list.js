@@ -12,7 +12,7 @@ const drawStar = () => {
 drawStar();
 
 async function getData(){
-  const res = await fetch('https://121.152.144.211:8080/gym/req');
+  const res = await fetch('//121.152.144.211:8080/gym/req');
   const data = await res.text();
   array = JSON.parse(data);
   usersAssessment();
