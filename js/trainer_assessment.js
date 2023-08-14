@@ -34,7 +34,7 @@ button[1].addEventListener(`click`, () => {
 })
 
 async function getData(assessment1) {
-  const res = await fetch('http://localhost:8080/trainer', {
+  const res = await fetch('http://121.152.144.211/trainer', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
