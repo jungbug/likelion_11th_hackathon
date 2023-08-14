@@ -45,7 +45,7 @@ let usersAssessment = () => {
       superDiv1.appendChild(clone);
     })
     drawStar();
-  } else {
+  } else { 
     alert("사용하시는 브라우저는 지원하지 않습니다.")
   }
 }

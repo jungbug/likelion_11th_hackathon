@@ -70,6 +70,7 @@ const assessment = () => {
   };
   console.log(assessment1);
   getData(assessment1);
+  window.history.back(-1);
 };
 
 document.querySelector(`.yes`).addEventListener(`click`, assessment)

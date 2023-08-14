@@ -91,53 +91,33 @@
         </div>
       </div>
       <div class="trainer_assessment">
-        <div class="assessment_strapoint_div">
-          <span id="assessment_starpoint"></span>
-          <img src="../img/assessment2/star_stroke.svg" alt="star" />
-          <img src="../img/assessment2/star_stroke.svg" alt="star" />
-          <img src="../img/assessment2/star_stroke.svg" alt="star" />
-          <img src="../img/assessment2/star_stroke.svg" alt="star" />
-          <img src="../img/assessment2/star_stroke.svg" alt="star" />
+        <div class="assessment_master">
+          <div class="star_assesment">
+            <span class="star">
+              ★★★★★
+              <span>★★★★★</span>
+              <input type="range" oninput="drawStar(this)" value="1" step="1" min="0" max="10">
+            </span>
+          </div>    
         </div>
         <!-- 여기 사용자로부터 받는 값이 4.7/5 이런식으로 떠야할 것 같은데 이거 어케 설정해야할지 모르겠어서 공란 -->
       </div>
       <div id="super-div1">
         <div class="user-templete">
           <div class="user-top">
-            <img
-              src="../img/assessment_list/profile.svg"
-              alt="유저사진"
-              class="user-profile"
-            />
+            <img src="../img/assessment_list/profile.svg" alt="유저사진" class="user-profile">
             <div class="user-topbar">
               <div class="user-star">★★★★★</div>
-              <div class="user-period">3년 5개월 사용자</div>
+              <div class="user-period">2년 수강생</div>
             </div>
           </div>
-          <div class="text1">그냥 가까워서 좋음 ㅇㅇ</div>
-          <div class="user-container">
-            <div class="price">
-              <div>이용료</div>
-              <span>1달 기준 12만원</span>
-            </div>
-            <div class="type">
-              <div>기구종류</div>
-              <span>사이클이 없어서 종류가 다양하진 않아요.</span>
-            </div>
-            <div class="environment">
-              <div>센터환경</div>
-              <span>에어컨을 세게 틀어주지 않아서 불만이었어요.</span>
-            </div>
-            <div class="guitar">
-              <div>기타</div>
-              <span>이벤트 아니면 다시가진 않을 듯합니다.</span>
-            </div>
-          </div>
+          <div class="text1">푸바오 선생님 너무 친절하시고 자세도 정말 꼼꼼히 봐주셔서 좋았어요. 비용이 조금 비싸긴 하지만, 그만큼 좋습니다 ㅎㅎㅎㅎㅎ</div>
         </div>
       </div>
     </main>
     <div class="btn_container">
       <button class="more_btn" onClick="location.href='./trainer_select_list.html'">더 보기</button>
     </div>
+    <script src="../js/trainer_select.js"></script>
   </body>
 </html>

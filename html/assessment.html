@@ -12,7 +12,6 @@
     <header>
         <div id="super-div">
             <div class="top-navbar">
-                <!-- logo -->
                 <div class="logo-div" onClick="location.href='/index.html'">
                     <img src="../img/assessment/logo.svg" alt="logo" />
                 </div>
@@ -68,44 +67,48 @@
             </li>
         </ul>
 
-        <div class="assessment_strapoint_div">
-            <span id="assessment_starpoint"></span>
-            <img src="../img/assessment2/star_stroke.svg" alt="star">
-            <img src="../img/assessment2/star_stroke.svg" alt="star">
-            <img src="../img/assessment2/star_stroke.svg" alt="star">
-            <img src="../img/assessment2/star_stroke.svg" alt="star">
-            <img src="../img/assessment2/star_stroke.svg" alt="star">
-        </div>
+        <div class="assessment_master">
+            <div class="star_assesment">
+              <span class="star">
+                ★★★★★
+                <span>★★★★★</span>
+                <input type="range" oninput="drawStar(this)" value="1" step="1" min="0" max="10">
+              </span>
+            </div>    
+          </div>
 
 
         <ul class="assessment_three">
 
             <li id="money">
                 <img src="../img/assessment2/money.svg" alt="money">
-                <div class="rating_labels">
+                <!-- <div class="rating_labels">
                     <div class="money_good">만족</div>
                     <div class="money_soso">보통</div>
                     <div class="money_bad">불만족</div>
-                </div>
+                </div> -->
+                <div class="horizontal-bar-graph" id="my-graph"></div>
             </li>
 
             <li id="fitness_equipment" class="rating_item">
                 <img src="../img/assessment2/fitness_equipment.svg" alt="fitness equipment">
-                <div class="rating_labels">
+                <!-- <div class="rating_labels">
                     <div class="equipment_good">만족</div>
                     <div class="equipment_soso">보통</div>
                     <div class="equipment_bad">불만족</div>
-                </div>
+                </div> -->
+                <div class="horizontal-bar-graph" id="my-graph1"></div>
             </li>
 
             </li>
             <li id="facility" class="rating_item">
                 <img src="../img/assessment2/facility_environment.svg" alt="facility">
-                <div class="rating_labels">
+                <!-- <div class="rating_labels">
                     <div class="facility_good">만족</div>
                     <div class="facility_soso">보통</div>
                     <div class="facility_bad">불만족</div>
-                </div>
+                </div> -->
+                <div class="horizontal-bar-graph" id="my-graph2"></div>
             </li>
         </ul>
         <div id="super-div1"> 
@@ -138,11 +141,13 @@
             </div>
           </div>
         </div>
-
+        
         <button class="more_btn" onclick="location.href='./assessment_list.html'">
             <h3>더보기 > </h3>
         </button>
     </main>
+    <script src='https://d3js.org/d3.v3.min.js'></script>
+    <script src="../js/assessment.js"></script>
 </body>
 
 </html>

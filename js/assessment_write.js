@@ -98,11 +98,11 @@ async function getData(assessment1) {
 }
 
 const assessment = () => {
-  if(regex.test(textarea[0].value) || regex.test(textarea[1].value) || regex.test(textarea[2].value) || regex.test(textarea[3].value)){
+  if (regex.test(textarea[0].value) || regex.test(textarea[1].value) || regex.test(textarea[2].value) || regex.test(textarea[3].value)) {
     alert(`욕설이 포함되어 있습니다.`)
     return
   }
-  if(starRatingValue === 0 || buttonValue1 === 0 || buttonValue2 === 0 || buttonValue3 === 0 || textarea[0].value === `` || textarea[1].value === `` || textarea[2].value === `` || textarea[3].value === ``){
+  if (starRatingValue === 0 || buttonValue1 === 0 || buttonValue2 === 0 || buttonValue3 === 0 || textarea[0].value === `` || textarea[1].value === `` || textarea[2].value === `` || textarea[3].value === ``) {
     alert(`모든 항목을 선택해주세요.`)
     return
   }
@@ -116,10 +116,11 @@ const assessment = () => {
     textarea3: textarea[2].value,
     textarea4: textarea[3].value,
   };
+  
   console.log(assessment1);
   getData(assessment1);
+  window.history.back(-1);
 };
 
 
 document.querySelector(`.yes`).addEventListener(`click`, assessment)
-
