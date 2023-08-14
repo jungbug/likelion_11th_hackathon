@@ -84,7 +84,7 @@ button.forEach((element) => {
 })
 
 async function getData(assessment1) {
-  const res = await fetch('http://localhost:8080/gym', {
+  const res = await fetch('http://121.152.144.211/gym', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
