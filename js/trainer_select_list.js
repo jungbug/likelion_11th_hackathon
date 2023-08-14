@@ -13,7 +13,7 @@ drawStar();
 
 
 async function getData(){
-  const res = await fetch('http://121.152.144.211:8080/trainer/req');
+  const res = await fetch('https://121.152.144.211:8080/trainer/req');
   const data = await res.text();
   array = JSON.parse(data);
   usersAssessment();
