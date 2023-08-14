@@ -36,9 +36,9 @@ let usersAssessment = () => {
       starRating += element.starRatingValue;
       let clone = document.importNode(userTamplete, true);
       clone.querySelector(".user-star").innerHTML = "★".repeat(element.starRatingValue/2);
-      if(element.buttonValue == 0){
+      if(element.buttonValue == 1){
         clone.querySelector(".user-period").innerHTML = `${element.inputText}년 수강생`;
-      } else if(element.buttonValue == 1){
+      } else if(element.buttonValue == 2){
         clone.querySelector(".user-period").innerHTML = `${element.inputText}회 수강생`;
       }
       clone.querySelector(".text1").innerHTML = element.bottomInput;
