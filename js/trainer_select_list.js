@@ -45,7 +45,6 @@ let usersAssessment = () => {
       clone.querySelector(".text1").innerHTML = element.bottomInput;
       superDiv1.appendChild(clone);
     })
-    console.log(starRating)
     drawStar();
   } else { 
     alert("사용하시는 브라우저는 지원하지 않습니다.")

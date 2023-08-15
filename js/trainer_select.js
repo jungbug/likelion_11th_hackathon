@@ -13,13 +13,12 @@ let usersAssessment = () => {
   array.forEach((element) => {
     starRating += element.starRatingValue;
   })
-  console.log(starRating)
   drawStar();
 }
 
 async function getData(){
   const url = "https://ae58-121-152-144-211.ngrok-free.app"
-  const res = await fetch(url+'/gym/req');
+  const res = await fetch(url+'/trainer/req');
   const data = await res.text();
   array = JSON.parse(data);
   usersAssessment();
