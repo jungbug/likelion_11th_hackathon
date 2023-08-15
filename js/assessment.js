@@ -107,7 +107,7 @@ let usersAssessment = () => {
 }
 
 async function getData(){
-  const res = await fetch('https://b73e-121-152-144-211.ngrok-free.app/req');
+  const res = await fetch('https://b73e-121-152-144-211.ngrok-free.app/gym/req');
   const data = await res.text();
   array = JSON.parse(data);
   usersAssessment();
