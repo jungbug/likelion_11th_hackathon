@@ -57,7 +57,7 @@ const assessment = () => {
     alert(`욕설이 포함되어 있습니다.`)
     return
   }
-  if((starRatingValue === 0) || (buttonValue === 0) || (costInput.value === "") || (bottomTextarea.value === "")) {
+  if((starRatingValue === 0) || (buttonValue === 0) || (costInput.value === "") || (bottomTextarea.value === "") || (input === null)) {
     alert(`모든 항목을 입력해주세요.`)
     return
   }
