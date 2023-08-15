@@ -6,6 +6,7 @@ let usersAssessment = () => {
   array.forEach((element) => {
     starRating += element.starRatingValue;
   })
+  console.log(starRating)
   drawStar();
 }
 
