@@ -34,7 +34,8 @@ button[1].addEventListener(`click`, () => {
 })
 
 async function getData(assessment1) {
-  const res = await fetch('https://b73e-121-152-144-211.ngrok-free.app/trainer', {
+  const url = "https://ae58-121-152-144-211.ngrok-free.app"
+  const res = await fetch(url+'/trainer', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',

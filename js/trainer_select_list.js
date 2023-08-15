@@ -13,7 +13,8 @@ drawStar();
 
 
 async function getData(){
-  const res = await fetch("https://b73e-121-152-144-211.ngrok-free.app/trainer/req");
+  const url = "https://ae58-121-152-144-211.ngrok-free.app"
+  const res = await fetch(url+"/trainer/req");
   const data = await res.text();
   array = JSON.parse(data);
   usersAssessment();
