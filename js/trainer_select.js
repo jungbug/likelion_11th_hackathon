@@ -2,6 +2,13 @@ let array = [];
 
 let starRating = 10
 
+const drawStar = () => {
+  starRating = (starRating/(array.length+1))
+  document.querySelector(`.star span`).style.width = `${starRating * 10}%`
+}
+
+drawStar();
+
 let usersAssessment = () => {
   array.forEach((element) => {
     starRating += element.starRatingValue;
@@ -20,9 +27,3 @@ async function getData(){
 
 getData();
 
-const drawStar = () => {
-  starRating = (starRating/(array.length+1))
-  document.querySelector(`.star span`).style.width = `${starRating * 10}%`
-}
-
-drawStar();
