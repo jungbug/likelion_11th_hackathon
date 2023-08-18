@@ -45,6 +45,7 @@ async function getData(assessment1) {
 
   const data = await res.json();
   console.log(data);
+  // window.history.back(-1);
 }
 
 // inputText = input.value
@@ -71,7 +72,7 @@ const assessment = () => {
   };
   console.log(assessment1);
   getData(assessment1);
-  window.history.back(-1);
+  
 };
 
 document.querySelector(`.yes`).addEventListener(`click`, assessment)
