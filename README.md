@@ -32,10 +32,13 @@
 
 ## 주요 기능
 > 헬스장 시설에 대한 후기 기능
+
 > 트레이너에 대한 후기 기능
+
 > 후기 작성의 비속어 필터링 기능
 
 ## 개발 환경
-<img src="https://img.shields.io/badge/ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white">
-<img src="https://img.shields.io/badge/visualstudiocode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white">
+<img src="https://img.shields.io/badge/ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white"><img src="https://img.shields.io/badge/windows10-0078D4?style=for-the-badge&logo=windows10&logoColor=white"><img src="https://img.shields.io/badge/macos-000000?style=for-the-badge&logo=macos&logoColor=white">
+
+<img src="https://img.shields.io/badge/visualstudiocode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white"><img src="https://img.shields.io/badge/intellijidea-000000?style=for-the-badge&logo=intellijidea&logoColor=white">
 
